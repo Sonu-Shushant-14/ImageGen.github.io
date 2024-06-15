@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(17, 17, 17);
+}
+
+.img_container {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img_container img {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(69, 63, 63);
+    width: 300px;
+    height: 300px;
+    box-shadow:  0 4px 8px rgba(220, 217, 217, 0.5);
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: slateblue;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgb(119, 106, 206) ;
+
+}
